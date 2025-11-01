@@ -1,9 +1,9 @@
 [submodule "CppCoreUtils"]
 	path = CppCoreUtils
-	url = https://github.com/ChristianHinkle/CppCoreUtils
+	url = https://github.com/ChristianHinkle/CppUtils_Core
 [submodule "CppCoreConcepts"]
 	path = CppCoreConcepts
-	url = https://github.com/ChristianHinkle/CppCoreConcepts
+	url = https://github.com/ChristianHinkle/CppUtils_Concepts
 [submodule "GeneralCMakePresets"]
 	path = GeneralCMakePresets
 	url = https://github.com/ChristianHinkle/GeneralCMakePresets

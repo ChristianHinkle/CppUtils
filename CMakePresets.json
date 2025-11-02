@@ -13,5 +13,64 @@
         "${sourceDir}/GeneralCMakePresets/GeneralPresets.json",
         "CppUtils_Core/CMakePresets.json",
         "CppUtils_Concepts/CMakePresets.json"
+    ],
+    "testPresets": [
+        {
+            "name": "cpputils-base",
+            "hidden": true,
+            "filter": {
+                "include": {
+                    "name": "CppUtils."
+                }
+            }
+        },
+        {
+            "name": "cpputils-win-debug",
+            "displayName": "CppUtils - Windows Debug",
+            "inherits": [
+                "cpputils-base",
+                "win-debug"
+            ]
+        },
+        {
+            "name": "cpputils-win-release",
+            "displayName": "CppUtils - Windows Release",
+            "inherits": [
+                "cpputils-base",
+                "win-release"
+            ]
+        },
+        {
+            "name": "cpputils-linux-debug",
+            "displayName": "CppUtils - Linux Debug",
+            "inherits": [
+                "cpputils-base",
+                "linux-debug"
+            ]
+        },
+        {
+            "name": "cpputils-linux-release",
+            "displayName": "CppUtils - Linux Release",
+            "inherits": [
+                "cpputils-base",
+                "linux-release"
+            ]
+        },
+        {
+            "name": "cpputils-macos-debug",
+            "displayName": "CppUtils - macOS Debug",
+            "inherits": [
+                "cpputils-base",
+                "macos-debug"
+            ]
+        },
+        {
+            "name": "cpputils-macos-release",
+            "displayName": "CppUtils - macOS Release",
+            "inherits": [
+                "cpputils-base",
+                "macos-release"
+            ]
+        }
     ]
 }

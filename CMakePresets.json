@@ -11,7 +11,7 @@
     ],
     "include": [
         "${sourceDir}/GeneralCMakePresets/GeneralPresets.json",
-        "CppCoreUtils/CMakePresets.json",
-        "CppCoreConcepts/CMakePresets.json"
+        "CppUtils_Core/CMakePresets.json",
+        "CppUtils_Concepts/CMakePresets.json"
     ]
 }

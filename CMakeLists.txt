@@ -32,13 +32,13 @@ include(FetchContent)
 # declarations refer to them by directory path.
 #
 
-FetchContent_Declare(CppCoreConcepts
-  SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/CppCoreConcepts"
+FetchContent_Declare(CppUtils_Concepts
+  SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/CppUtils_Concepts"
   OVERRIDE_FIND_PACKAGE
   )
 
-FetchContent_Declare(CppCoreUtils
-  SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/CppCoreUtils"
+FetchContent_Declare(CppUtils_Core
+  SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/CppUtils_Core"
   OVERRIDE_FIND_PACKAGE
   )
 
@@ -51,6 +51,6 @@ FetchContent_Declare(CppCoreUtils
 # when a project is needed as a dependency several times.
 #
 
-FetchContent_MakeAvailable(CppCoreConcepts)
+FetchContent_MakeAvailable(CppUtils_Concepts)
 
-FetchContent_MakeAvailable(CppCoreUtils)
+FetchContent_MakeAvailable(CppUtils_Core)

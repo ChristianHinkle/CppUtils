@@ -7,3 +7,6 @@
 [submodule "CppUtils_Concepts"]
 	path = CppUtils_Concepts
 	url = https://github.com/ChristianHinkle/CppUtils_Concepts
+[submodule "CppUtils_Misc"]
+	path = CppUtils_Misc
+	url = https://github.com/ChristianHinkle/CppUtils_Misc

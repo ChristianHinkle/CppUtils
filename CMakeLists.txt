@@ -42,6 +42,11 @@ FetchContent_Declare(CppUtils_Core
   OVERRIDE_FIND_PACKAGE
   )
 
+FetchContent_Declare(CppUtils_Misc
+  SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/CppUtils_Misc"
+  OVERRIDE_FIND_PACKAGE
+  )
+
 #
 # Add subprojects.
 #
@@ -54,3 +59,5 @@ FetchContent_Declare(CppUtils_Core
 FetchContent_MakeAvailable(CppUtils_Concepts)
 
 FetchContent_MakeAvailable(CppUtils_Core)
+
+FetchContent_MakeAvailable(CppUtils_Misc)

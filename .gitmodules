@@ -10,3 +10,9 @@
 [submodule "CppUtils_Misc"]
 	path = CppUtils_Misc
 	url = https://github.com/ChristianHinkle/CppUtils_Misc
+[submodule "CppUtils_ContainerInterfaces"]
+	path = CppUtils_ContainerInterfaces
+	url = https://github.com/b2hinkle/CppUtils_ContainerInterfaces
+[submodule "CppUtils_CustomAccess"]
+	path = CppUtils_CustomAccess
+	url = https://github.com/b2hinkle/CppUtils_CustomAccess.git

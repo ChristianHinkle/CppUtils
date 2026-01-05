@@ -32,8 +32,8 @@ include(FetchContent)
 # declarations refer to them by directory path.
 #
 
-FetchContent_Declare(CppUtils_Concepts
-  SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/CppUtils_Concepts"
+FetchContent_Declare(CppUtils_StdReimpl
+  SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/CppUtils_StdReimpl"
   OVERRIDE_FIND_PACKAGE
   )
 
@@ -56,7 +56,7 @@ FetchContent_Declare(CppUtils_Misc
 # when a project is needed as a dependency several times.
 #
 
-FetchContent_MakeAvailable(CppUtils_Concepts)
+FetchContent_MakeAvailable(CppUtils_StdReimpl)
 
 FetchContent_MakeAvailable(CppUtils_Core)
 

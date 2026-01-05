@@ -12,7 +12,7 @@
     "include": [
         "${sourceDir}/GeneralCMakePresets/GeneralPresets.json",
         "CppUtils_Core/CMakePresets.json",
-        "CppUtils_Concepts/CMakePresets.json",
+        "CppUtils_StdReimpl/CMakePresets.json",
         "CppUtils_Misc/CMakePresets.json"
     ],
     "testPresets": [

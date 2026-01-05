@@ -47,6 +47,16 @@ FetchContent_Declare(CppUtils_Misc
   OVERRIDE_FIND_PACKAGE
   )
 
+FetchContent_Declare(CppUtils_ContainerInterfaces
+  SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/CppUtils_ContainerInterfaces"
+  OVERRIDE_FIND_PACKAGE
+  )
+
+FetchContent_Declare(CppUtils_CustomAccess
+  SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/CppUtils_CustomAccess"
+  OVERRIDE_FIND_PACKAGE
+  )
+
 #
 # Add subprojects.
 #
@@ -61,3 +71,7 @@ FetchContent_MakeAvailable(CppUtils_Concepts)
 FetchContent_MakeAvailable(CppUtils_Core)
 
 FetchContent_MakeAvailable(CppUtils_Misc)
+
+FetchContent_MakeAvailable(CppUtils_ContainerInterfaces)
+
+FetchContent_MakeAvailable(CppUtils_CustomAccess)

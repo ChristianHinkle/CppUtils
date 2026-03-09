@@ -1,6 +1,6 @@
 # CppUtils
 
-A superproject providing all the libraries CppUtils has to offer. Each one is individually usable, although some may depend on others.
+CppUtils is a collection of general purpose C++ libraries with no external dependencies. This repository is a superproject providing all the libraries CppUtils has to offer. Each one is individually usable, although some may depend on others.
 
 ## Project Structure 📂
 

@@ -2,6 +2,11 @@
 
 CppUtils is a collection of general purpose C++ libraries with no external dependencies. This repository is a superproject providing all the libraries CppUtils has to offer. Each one is individually usable, although some may depend on others.
 
+Key benefits of this project structure I designed:
+- Fulfills any CMake use case (namely, installation and local build use cases).
+- Keeps dependencies isolated and accessible via `find_package` along with FetchContent or ExternalProject.
+- Wrote automated tests with CTest, distributed products with CPack, and wrote reusable CMakePresets.
+
 ## Project Structure 📂
 
 CppUtils
